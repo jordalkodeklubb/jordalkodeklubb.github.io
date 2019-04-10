@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(svg-and-css-squiggly-pattern.png)
+}
+/*navbaren start*/
+.navbar {
+    background-color: grey;
+    display: flex;
+    margin-left: 0px;
+    margin-block-end: 0px;
+    margin-bottom:  5px;
+    border: solid gray;
+}  
+.navbar .home {
+    opacity: 0.6;
+    transition: 0.3s;
+    color: white;
+    padding:10px 32px;
+    text-decoration-line: none;
+    border-inline-end-style: solid;
+    border: solid green;
+}  
+.navbar .oppskrift {
+    opacity: 0.6;
+    transition: 0.3s;
+    color: white;
+    padding: 10px 32px;
+    text-decoration-line: none;
+}
+.navbar .oppskrift:hover {
+    opacity: 1;
+    color: black;
+    border: inset blueviolet;
+}
+
+.navbar .about{
+    opacity: 0.6;
+    transition: 0.3;
+    color: white;
+    padding: 10px 32px;
+    background-color: grey;
+    text-decoration-line: none;
+}
+
+/*navbaren end*/
