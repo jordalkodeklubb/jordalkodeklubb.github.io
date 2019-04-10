@@ -3,7 +3,6 @@
     padding: 0px;
 }
 body {
-    background-image: url(svg-and-css-squiggly-pattern.png)
 }
 /*navbaren start*/
 .navbar {
@@ -23,14 +22,14 @@ body {
     border-inline-end-style: solid;
     border: solid green;
 }  
-.navbar .oppskrift {
+.navbar .info {
     opacity: 0.6;
     transition: 0.3s;
     color: white;
     padding: 10px 32px;
     text-decoration-line: none;
 }
-.navbar .oppskrift:hover {
+.navbar .info:hover {
     opacity: 1;
     color: black;
     border: inset blueviolet;
